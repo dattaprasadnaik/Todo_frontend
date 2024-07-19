@@ -1,0 +1,287 @@
+
+ .signup {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #59b0f3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #88bbe7;
+}
+@keyframes identifier {
+  0% {
+    background-color: #c0c6cb;
+  }
+  100% {
+    background-color: #6fb0f1;
+  }
+  
+}
+
+.signup h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #c317a4;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.home-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #e7e1e1;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #6c3939;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #e47b7b;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c16b6b(0, 29%, 59%);
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  text-align: center;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 03s;
+}
+
+.login-button:hover {
+  background-color: #6246b6;
+  
+      
+    }
+
+
+
+
+
+
+
+.todo {
+  width: 80%;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px lightcoral;
+  background-color: peachpuff;
+}
+
+.todo h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2828ff;
+}
+
+.add-todo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.add-todo input[type="text"],
+.add-todo input[type="date"] {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #c97878;
+  border-radius: 5px;
+}
+
+.add-todo button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(93, 98, 255);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-todo button:hover {
+  background-color: #1c1cd9;
+
+}
+
+
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-section {
+  width: 30%;
+}
+
+.todo-section h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.todo-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-section li {
+  padding: 10px;
+  border: 1
+  px solid #ce8686;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #d0c676;
+}
+
+.csl{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-checkbox {
+  margin-right: 10px;
+}
+
+.del{
+  size-adjust: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: red;
+  align-items: right;
+}
+
+.del:hover {
+  background-color: #ff0116;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+.navbar-brand {
+  color: #007bff; /* Bootstrap primary color */
+  font-weight: bold;
+}
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+
+/* Additional styling for the todo component */
+.todo {
+  margin: 20px;
+}
+
+.add-todo input[type="text"] {
+  margin-right: 10px;
+}
+
+.add-todo input[type="date"] {
+  margin-right: 10px;
+}
+
+.todo-container {
+  margin-top: 20px;
+}
+
+.todo-section {
+  margin-bottom: 20px;
+}
+
